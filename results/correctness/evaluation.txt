@@ -1,0 +1,279 @@
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.
+
+Modern computer systems execute applications using processors,
+    memory, storage devices, and operating systems. The processor performs
+    arithmetic and logical operations, while the memory subsystem supplies
+    instructions and data. The performance of a program depends not only
+    on its instruction count but also on the efficiency of data movement.
+    When an application repeatedly accesses data already present in a
+    processor cache, execution can be significantly faster than when
+    those accesses require main memory.
+
+Large language models use transformer architectures to process
+    sequences of tokens. During the prefill phase, the model evaluates
+    the input prompt and constructs key and value representations for
+    the attention layers. During decoding, the model generates tokens
+    sequentially. Previously computed key and value tensors are stored
+    in a cache so that they do not need to be recomputed at every step.
+    As the context becomes longer, attention must examine more cached
+    information, increasing the amount of work per generated token.
+
+Memory bandwidth is an important constraint in autoregressive
+    inference. Each decoding step uses model weights to compute the
+    next token. Quantization reduces the storage requirements of these
+    weights and can reduce memory traffic. However, quantized inference
+    also requires specialized computational kernels. Performance depends
+    on the interaction between memory bandwidth, arithmetic throughput,
+    cache behavior, and synchronization between processor threads.
+
+Benchmarking requires careful experimental methodology.
+    Measurements should be repeated under consistent conditions, and
+    results should include variability rather than only the fastest
+    observation. Background applications, thermal conditions, and memory
+    pressure may influence performance. Profiling tools can identify
+    expensive functions, but sampled call stacks must be interpreted
+    carefully because sample counts are not necessarily equivalent to
+    exclusive execution time for individual operators.

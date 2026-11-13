@@ -1,0 +1,7 @@
+Large language models predict sequences of tokens using information from preceding tokens. During inference, the model first processes the input prompt and builds a key value cache. This stage is called prefill. After prefill, the model generates tokens one at a time. This second stage is called decoding.
+
+The performance of language model inference depends on model size, context length, memory bandwidth, computational throughput, and the number of CPU threads. Prefill often benefits from parallel matrix multiplication, whereas decoding repeatedly reads model weights and cached key value tensors.
+
+Quantization reduces the storage requirements of neural network weights by representing them with fewer bits. This can reduce memory consumption and improve inference speed, although it may introduce numerical approximation errors. Evaluating perplexity on a fixed text sample provides a simple way to check the predictive behavior of a quantized model.
+
+As the context length increases, the key value cache grows because the model must retain information about previously processed tokens. Longer contexts can therefore increase memory usage and slow down generation. Efficient attention mechanisms, memory management, and careful benchmarking help identify these performance bottlenecks.

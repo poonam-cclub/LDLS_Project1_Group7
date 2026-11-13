@@ -1,0 +1,23 @@
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| llama 3B Q4_K - Medium         |   1.87 GiB |     3.21 B | BLAS       |       4 |   tg128 @ d1024 |         19.79 ± 0.13 |
+
+build: bbc2e4b65 (12166)
+       33.12 real       128.66 user         0.52 sys
+          4407541760  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              252757  page reclaims
+               23162  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   7  voluntary context switches
+                2045  involuntary context switches
+       1202749753441  instructions retired
+        249936211124  cycles elapsed
+          2415513248  peak memory footprint

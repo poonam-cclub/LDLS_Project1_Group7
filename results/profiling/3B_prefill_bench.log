@@ -1,0 +1,17 @@
+llama-bench: benchmark 1/1: starting
+llama-bench: benchmark 1/1: warmup prompt run
+llama-bench: benchmark 1/1: prompt run 1/10
+llama-bench: benchmark 1/1: prompt run 2/10
+llama-bench: benchmark 1/1: prompt run 3/10
+llama-bench: benchmark 1/1: prompt run 4/10
+llama-bench: benchmark 1/1: prompt run 5/10
+llama-bench: benchmark 1/1: prompt run 6/10
+llama-bench: benchmark 1/1: prompt run 7/10
+llama-bench: benchmark 1/1: prompt run 8/10
+llama-bench: benchmark 1/1: prompt run 9/10
+llama-bench: benchmark 1/1: prompt run 10/10
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| llama 3B Q4_K - Medium         |   1.87 GiB |     3.21 B | BLAS       |       4 |          pp4096 |        71.99 ± 31.06 |
+
+build: bbc2e4b65 (12166)

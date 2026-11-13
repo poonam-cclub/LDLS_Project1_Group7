@@ -1,0 +1,7 @@
+Large language models are neural networks trained to predict and generate text. A transformer processes information using attention mechanisms, which allow tokens to incorporate information from other tokens in a sequence. During inference, the model first processes the input prompt in a phase called prefill. It then generates new tokens one at a time during the decoding phase.
+
+The key and value vectors computed for previous tokens are stored in a KV cache. This cache avoids recomputing the same keys and values for every new token. However, the memory required for the KV cache grows as the sequence becomes longer. As a result, longer contexts can increase memory usage and affect inference speed.
+
+Quantization reduces the number of bits used to represent model weights. For example, four-bit quantization can substantially reduce the amount of memory required to store weights compared with sixteen-bit precision. This can improve inference performance when reading weights from memory is a major bottleneck.
+
+On a CPU, inference performance depends on factors such as memory bandwidth, cache capacity, arithmetic throughput, and the number of threads. Measuring these factors helps us understand why different models and workloads have different execution speeds.

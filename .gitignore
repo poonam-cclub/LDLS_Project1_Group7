@@ -1,0 +1,7 @@
+models/*.gguf
+llama.cpp/
+stream/stream
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,23 @@
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| llama 1B Q4_K - Medium         | 762.81 MiB |     1.24 B | BLAS       |       4 |   tg128 @ d8192 |         28.46 ± 0.44 |
+
+build: bbc2e4b65 (12166)
+       65.07 real       258.61 user         0.33 sys
+          2292039680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              144591  page reclaims
+                  13  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 121  involuntary context switches
+       3215129152164  instructions retired
+        595904298957  cycles elapsed
+          1485686896  peak memory footprint
