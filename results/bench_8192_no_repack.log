@@ -1,0 +1,23 @@
+| model                          |       size |     params | backend    | threads | rpk |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --: | --------------: | -------------------: |
+| llama 3B Q4_K - Medium         |   1.87 GiB |     3.21 B | BLAS       |       4 |   0 |          pp8192 |        110.68 ± 0.00 |
+
+build: bbc2e4b65 (12166)
+       74.24 real       256.94 user         1.08 sys
+          3259482112  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              218664  page reclaims
+                  18  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+              114900  involuntary context switches
+       4477002336697  instructions retired
+        873771039755  cycles elapsed
+          1242041176  peak memory footprint
